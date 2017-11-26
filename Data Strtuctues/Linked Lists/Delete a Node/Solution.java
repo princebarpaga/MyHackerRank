@@ -28,13 +28,13 @@ Node Delete(Node head, int position) {
     if(position == 0){
        return head.next;
     }   
-    Node newNode = head;
+    Node prev = head;
     int count = 0;
     while(count < position -1){
-        newNode = newNode.next;
+        prev = prev.next;
         count ++;
     }
-    newNode.next = newNode.next.next;
+    prev.next = prev.next.next;
     return head;
 
 }
