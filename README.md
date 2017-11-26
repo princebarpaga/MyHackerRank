@@ -2,7 +2,7 @@
 
 My solution to Data Structrues problems on hackerrank.com
 
-I will upload as complete more!
+I will upload more as I complete.
 
 Best,
 
