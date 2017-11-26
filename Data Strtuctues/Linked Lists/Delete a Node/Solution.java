@@ -22,7 +22,7 @@
 Node Delete(Node head, int position) {
     
     if(head == null){
-        return null;
+        return head;
     }
   
     if(position == 0){
