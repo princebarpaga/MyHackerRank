@@ -28,11 +28,7 @@ Node InsertNth(Node head, int data, int position) {
         newNode.next = head; 
         return newNode;
     } 
-    
-    /*In order to delete, 
-     we need to find the previous of 
-     the Node to be deleted
-    */
+  
     else{           
         Node prev = head; // Set the Head as previous node 
         int count = 0; 
