@@ -12,9 +12,9 @@
 void ReversePrint(Node head) {
   // This is a "method-only" submission. 
   // You only need to complete this method. 
-    Node last = null;
-    if(head == last)
+    Node last = null; // Set the last node of the List as null. 
+    if(head == last) // The function (ReversePrint) is invoked until it reaches the last node of the List
         return;
-        ReversePrint(head.next);
-        System.out.println(head.data);
+        ReversePrint(head.next); // When it reaches the last Node, the function passes a NULL, and invokes function (ReversePrint)
+        System.out.println(head.data); // and it Print the data of the Node
     }
