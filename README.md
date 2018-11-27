@@ -1,3 +1,3 @@
 # MyHackerRank
 
-Here you will some Hackerrank problems that I have solved. 
+Here you will find some Hackerrank problems that I have solved. 
