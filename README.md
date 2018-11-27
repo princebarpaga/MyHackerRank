@@ -1,9 +1,3 @@
 # MyHackerRank
 
-My solution to Data Structrues problems on hackerrank.com
-
-I will upload more as I complete.
-
-Best,
-
-Prince
+Here you will some Hackerrank problems that I have solved. 
